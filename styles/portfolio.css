@@ -152,8 +152,22 @@ footer textarea {
   .skils-container,
   .resume-container,
   footer,
-  .about-items {
+  .about-items,
+  .banner,
+  nav {
     flex-direction: column;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-pic {
+    width: 100%;
+  }
+  .header {
+    background-image: none;
   }
   footer,
   .about {
